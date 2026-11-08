@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data and model weights are never committed
+data/
+fonts/
+models/*.pt
+models/*.pth
+*.pt
+*.pth
+!models/.gitkeep
+
+# Notebooks / OS / IDE
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
